@@ -19,14 +19,14 @@
 
 I used two different methods to detect vehicles
 
-- **Traditional CV Method (traditional_approach.ipynb)**
+- **Traditional CV Method ([traditional_approach.ipynb](https://nbviewer.jupyter.org/github/kkweon/Vehicle-Detection/blob/master/traditional_approach.ipynb))**
     - By traditional, I mean extracting features from the image and put into a classifier to detect if it's an vehicle
     - Hand picked input features are required. That's why it's traditional
     - For example, a histogram of oriented gradients (HOG) is used to extract features
     - Then I used traditional sliding windows techniques to detect objects
     - Detailed information can be found below
 
-- **Deep Learning Method (deep_learning_approach.ipynb)**
+- **Deep Learning Method ([deep_learning_approach.ipynb](https://nbviewer.jupyter.org/github/kkweon/Vehicle-Detection/blob/master/deep_learning_approach.ipynb))**
     - Thanks to [Vehicle Image Database](https://www.gti.ssr.upm.es/data/Vehicle_database.html), I was able to collect enough car and non car images to train a model
     - I used a pre-trained VGG Net and fine tuning on the above datasets
     - Then, I created a heat map from the output of the final convolution layers
