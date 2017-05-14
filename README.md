@@ -11,8 +11,11 @@
 [heatmap2]: assets/heatmap2.png
 [heatmap3]: assets/heatmap3.png
 [heatmap4]: assets/heatmap4.png
+[overview]: assets/project.gif
 
 # Vehicle Detection
+
+<img src="assets/project.gif" width="1024px" />
 
 I used two different methods to detect vehicles
 
